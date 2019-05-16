@@ -1,0 +1,23 @@
+{
+    "name": "indicio-software/whmcs-api",
+    "description": "A collection of helpers to interact with WHMCS API",
+    "type": "library",
+    "license": "MIT",
+    "version" : "0.0.2",
+    "authors": [
+        {
+            "name": "Dominik Gacek",
+            "email": "contact@dominikgacek.pl"
+        }
+    ],
+    "require": {
+      "jms/serializer": "1.x-dev",
+      "symfony/validator": "3.4.x-dev",
+      "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "autoload": {
+      "psr-4": {
+        "Indicio\\WHMCS\\": "src/"
+      }
+    }
+}
